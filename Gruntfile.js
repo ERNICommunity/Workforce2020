@@ -200,7 +200,9 @@ module.exports = function (grunt) {
                 src: [
                     '<%= yeoman.dist %>/scripts/*.js',
                     '<%= yeoman.dist %>/styles/*.css',
+                    '<%= yeoman.dist %>/js/*.js',
                     '<%= yeoman.dist %>/images/**/*.{png,jpg,jpeg,gif,webp,svg}',
+                    '<%= yeoman.dist %>/gif/**/*.{gif}',
                     '<%= yeoman.dist %>/styles/fonts/*'
                 ]
             }
@@ -233,7 +235,10 @@ module.exports = function (grunt) {
                 assetsDirs: [
                     '<%= yeoman.dist %>',
                     '<%= yeoman.dist %>/images',
-                    '<%= yeoman.dist %>/styles'
+                    '<%= yeoman.dist %>/styles',
+                    '<%= yeoman.dist %>/gif',
+                    '<%= yeoman.dist %>/js'
+					
                 ]
             }
         },
@@ -313,6 +318,16 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: 'bower_components/bootstrap/dist',
                     src: 'fonts/*',
+                    dest: '<%= yeoman.dist %>'
+                }, {
+                    expand: true,
+                    cwd: '<%= yeoman.app %>',
+                    src: 'gif/*',
+                    dest: '<%= yeoman.dist %>'
+                }, {
+                    expand: true,
+                    cwd: '<%= yeoman.app %>',
+                    src: 'js/*',
                     dest: '<%= yeoman.dist %>'
                 }]
             },
