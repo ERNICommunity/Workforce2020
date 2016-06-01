@@ -317,7 +317,7 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     cwd: 'bower_components/bootstrap/dist',
-                    src: 'fonts/*',
+                    src: 'fonts/**/*',
                     dest: '<%= yeoman.dist %>'
                 }, {
                     expand: true,
@@ -327,7 +327,7 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     cwd: '<%= yeoman.app %>',
-                    src: 'js/*',
+                    src: 'js/**/*',
                     dest: '<%= yeoman.dist %>'
                 }, {
 					expand: true,

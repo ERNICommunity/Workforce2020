@@ -15,7 +15,7 @@
 
 body {
     color: #fff;
-    background-image: url("../img/background.jpg");
+    background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
     font-size: 16px;
     line-height: 1.6em;
@@ -132,6 +132,13 @@ a:hover {
   Misc & Adjust 
  ========================================================================== */
 
+.inline-chart {
+	display: inline-block;
+	width: 48%;
+	margin-left: 1%;
+}
+
+ 
 .row {
     z-index: 9999;
 }
@@ -386,11 +393,11 @@ section.section {
  --- Parallax ---
 ============================= */
 #parallax1 {
-    background-image: url(../img/parallax/img1.jpg);
+    background-image: url(../images/parallax/img1.jpg);
 }
 
 #parallax2 {
-    background-image: url(../img/parallax/img2.jpg);
+    background-image: url(../images/parallax/img2.jpg);
 }
 
 .parallax blockquote,
@@ -492,7 +499,7 @@ section.featured h3.vision {
     color: #fff;
     font-size: 24px;
     font-weight: 900;
-    background: url(../img/featured/vision.png) no-repeat left;
+    background: url(../images/featured/vision.png) no-repeat left;
     padding-left: 80px;
     padding-top: 4px;
     height: 36px;
@@ -502,7 +509,7 @@ section.featured h3.value {
     color: #fff;
     font-size: 24px;
     font-weight: 900;
-    background: url(../img/featured/value.png) no-repeat left;
+    background: url(../images/featured/value.png) no-repeat left;
     background-repeat: no-repeat;
     padding-left: 80px;
     height: 64px;
@@ -624,7 +631,7 @@ nav#filter a {
   --- Testimonial ----
 =========================== */
 #testimonials {
-    background-image: url(../img/parallax/img3.jpg);
+    background-image: url(../images/parallax/img3.jpg);
 }
 .testimonial span.author{
     color: #666;

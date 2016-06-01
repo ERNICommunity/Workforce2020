@@ -383,13 +383,13 @@ section.section {
 ============================= */
 
 #parallax1 {
-    background-image: url(../img/parallax/img1.jpg);
+    background-image: url(../images/parallax/img1.jpg);
 }
 #parallax2 {
-    background-image: url(../img/parallax/img2.jpg);
+    background-image: url(../images/parallax/img2.jpg);
 }
 #testimonials {
-    background-image: url(../img/parallax/img3.jpg);
+    background-image: url(../images/parallax/img3.jpg);
 }
 /*===========================
   --- Header & menu ----
@@ -493,7 +493,7 @@ section.featured h3.vision {
     color: #fff;
     font-size: 24px;
     font-weight: 900;
-    background: url(../img/featured/vision.png) no-repeat left;
+    background: url(../images/featured/vision.png) no-repeat left;
     padding-left: 80px;
     padding-top: 4px;
     height: 36px;
@@ -503,7 +503,7 @@ section.featured h3.value {
     color: #fff;
     font-size: 24px;
     font-weight: 900;
-    background: url(../img/featured/value.png) no-repeat left;
+    background: url(../images/featured/value.png) no-repeat left;
     background-repeat: no-repeat;
     padding-left: 80px;
     height: 64px;
@@ -557,11 +557,11 @@ section.featured.inner {
 }
 .flex-direction-nav .flex-next {
     right: -70px;
-    background: url(../img/arrow_large_right.png) no-repeat top left;
+    background: url(../images/arrow_large_right.png) no-repeat top left;
 }
 .flex-direction-nav .flex-prev {
     left: -70px;
-    background: url(../img/arrow_large_left.png) no-repeat top left;
+    background: url(../images/arrow_large_left.png) no-repeat top left;
 }
 .flex-direction-nav a.flex-next:before {
     content: none !important;
@@ -583,12 +583,12 @@ section.featured.inner {
 .tp-leftarrow.default {
     width: 49px !important;
     height: 98px !important;
-    background: url(../img/arrow_small_left.png) no-Repeat top left;
+    background: url(../images/arrow_small_left.png) no-Repeat top left;
 }
 .tp-rightarrow.default {
     width: 49px !important;
     height: 98px !important;
-    background: url(../img/arrow_small_right.png) no-Repeat top left;
+    background: url(../images/arrow_small_right.png) no-Repeat top left;
 }
 .fullwidthbanner-container {
     padding-top: 100px;
@@ -602,7 +602,7 @@ section.featured.inner {
     height: 650px;
 }
 .tp-bullets.simplebullets.round .bullet {
-    background: url(../img/bullets-new.png) no-repeat top left;
+    background: url(../images/bullets-new.png) no-repeat top left;
 }
 .tp-caption.large_bold_white {
     font-size: 60px;
