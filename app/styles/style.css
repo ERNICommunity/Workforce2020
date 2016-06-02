@@ -158,6 +158,10 @@ a:hover {
     color: #fff;
 }
 
+.color-darkblue{
+	color: #84A3AD;
+}
+
 /* --- align --- */
 
 .align-left {
@@ -478,16 +482,11 @@ h1 a.navbar-brand {
     line-height: 90px;
 }
 .navbar-logo {
-	margin: 10px 10px 0 -10px;
-    width: 120px;	float: left;
-}
-.navbar-brand img {
-    vertical-align: middle;
-}
+    width: 120px;}
 .navbar-toggle {
     padding: 0;
     margin: 0;
-		width: 80px;
+	width: 80px;
 }
 /*===========================
   --- Featured section ----
@@ -781,11 +780,6 @@ Media queries
     }
 }
 @media (max-width: 767px) {
-	.navbar-logo {
-		visibility: hidden;
-		width: 1px;
-	}	
-	
     .navbar.navbar-fixed-top {
         background-color: rgba(255, 255, 255, 0.5);
     }
