@@ -132,7 +132,7 @@
 		<section id="section-products" class="section appear clearfix pad-bot40 bg-lightblue">
 		<div class="container"> 
 		
-			<div class="row mar-bot40">
+			<div class="mar-top40 row mar-bot40">
 				<div class="col-md-offset-3 col-md-6">
 					<div class="section-header">
 						<h2 class="section-heading animated" data-animation="bounceInUp">Products</h2>
@@ -211,12 +211,11 @@
 			</div>	
 		</div>	
 		</section>
-			
-		
+					
 		<!-- section wearable dashboard -->
 		<section id="section-dashboard" class="section appear clearfix bg-darkblue">
 			<div class="container">				
-				<div class="row mar-bot40">
+				<div class="row mar-bot40 mar-top30">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">Wearable dashboard</h2>
@@ -234,18 +233,26 @@
 
 								  var countryDataSource = {
 									 "chart": {
-									"caption": "daily heart rate history",
-									"subcaption": "Monday",
 									"xaxisname": "time",
 									"yaxisname": "heart beats per minute",
 									"numberprefix": "bpm ",
 									"theme": "twitter-dashboard",
+									"bgColor": "#84A3AD",
+									"bgAlpha": "100",
+									"canvasBgColor": "#ffffff", 
+									"canvasBgAlpha": "0",
+									"labelBorderColor": "#ffffff",
+									"labelBgColor": "#AAA",
+									"labelBorderDashed": "1",
+									"labelDisplay": "auto",
+									"legendItemFontColor": "#000",
+									"baseFontColor": "#fff"
 								},
 								"categories": [
 									{
 										"category": [
 											{
-												"label": "00:00"
+												"label": "00:00",
 											},
 											{
 												"label": "00:15"
@@ -1228,12 +1235,14 @@
 								  return (
 									<div>
 									  <div id="interactive-dashbaord"></div>
-									  <div className="chart-row">
+									  <div className="chart-row mar-bot40">
+										  <h4>Daily heart rate monitor</h4>
 										<div id="country-revenue">
 										  <react_fc.FusionCharts {...countryChartConfigs} />
 										</div>
 									  </div>
 									  <div className="chart-row">
+										<h4>Daily heart rate monitor</h4>
 										<div id="monthly-revenue" className="inline-chart">
 										  <react_fc.FusionCharts {...monthlyChartConfigs} />
 										</div>
@@ -1267,7 +1276,7 @@
 		<!-- Team -->
 		<section id="section-team" class="section appear clearfix bg-lightblue">
 			<div class="container">
-				<div class="row mar-bot40">
+				<div class="row mar-bot40 mar-top40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">Team</h2>
