@@ -26,6 +26,10 @@ body {
     clear: both;
 }
 
+.vcentered{
+	text-align: center !important;
+}
+
 .vcentered h1{
 	text-align: center;
 }
@@ -152,6 +156,10 @@ a:hover {
 }
 .color-white {
     color: #fff;
+}
+
+.color-darkblue{
+	color: #84A3AD;
 }
 
 /* --- align --- */
@@ -400,6 +408,10 @@ section.section {
     background-image: url(../images/parallax/img2.9ec27eb8.jpg);
 }
 
+#parallax2 blockquote,
+#parallax2 p{
+    color: #EEE;
+}
 .parallax blockquote,
 .parallax p{
     color: #777;
@@ -413,7 +425,7 @@ section.section {
 .navbar {
     line-height: 100px;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     display: block;
     vertical-align: middle;
     text-align: center;
@@ -470,16 +482,11 @@ h1 a.navbar-brand {
     line-height: 90px;
 }
 .navbar-logo {
-	margin: 10px 10px 0 -10px;
-    width: 120px;	float: left;
-}
-.navbar-brand img {
-    vertical-align: middle;
-}
+    width: 120px;}
 .navbar-toggle {
     padding: 0;
     margin: 0;
-    width: 80px;
+	width: 80px;
 }
 /*===========================
   --- Featured section ----
@@ -489,7 +496,7 @@ section.featured {
     padding: 170px 0 60px;
     background: #84A3AD;
     color: #fdfdfd;	
-}section.featured .featurepicture{	width: 100%;}
+}section.featured .featurepicture{	width: 160px;}
 section.featured h2.slogan {
     color: #fff;
     font-size: 48px;
@@ -774,10 +781,10 @@ Media queries
 }
 @media (max-width: 767px) {
     .navbar.navbar-fixed-top {
-        background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 0.5);
     }
     .navbar .navbar-collapse ul.nav {
-        background-color: #444;
+        background-color: rgba(255, 255, 255, 0.9);
         width: 100%;
         float: none;
         margin: 0;
