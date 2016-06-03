@@ -1,18 +1,13 @@
 /* ==== Google font ==== */
-
-
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 /* ==== overwrite bootstrap standard ==== */
 
-@import url('overwrite.css');
-@import url('animate.css');
 /*==========================================================================
   General
   ========================================================================== */
 
 body {
     color: #fff;
-    background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
     font-size: 16px;
     line-height: 1.6em;
